@@ -1,0 +1,38 @@
+
+body {
+  background: gray !important;
+  justify-content: center;
+  
+}
+.table-wrapper {
+  max-width: 100%;
+  overflow: hidden;
+}
+
+.table-body-wrapper {
+  max-height: 300px;
+  overflow-y: auto;
+}
+
+@media (max-width: 768px) {
+  .table-wrapper {
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+  }
+
+  .table-responsive {
+    width: 100%;
+    overflow-x: auto; /* Enable horizontal scrolling */
+  }
+
+  .pagination {
+    display: block;
+    text-align: center;
+  }
+
+  .pagination li {
+    display: inline-block;
+  }
+}
+
+
